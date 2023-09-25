@@ -1,0 +1,44 @@
+body{
+    background-image: url("./images/bgimg2.jpg");
+    background-size: cover;
+}
+
+h1{
+    color: #440719;
+    font-size: 5rem;
+    font-weight: bolder;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p{
+    color: rgb(70, 0, 55);
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.keyboard, .drumkit{
+    color: #f3c7dd;
+    font-size: 1.75rem;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(0, 0, 0, 0.711);
+    border-radius: 10px 10px 10px 10px;
+}
+
+.card-des{
+    border: 5px solid #2b030f;
+}
+
+.btn{
+    background-color: #fffeffb6;
+    color: rgb(70, 0, 55);
+    font-size: 17px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+@media(max-width: 550px) and (min-width: 319px)
+{
+    h1{font-size: 3rem;}
+}
